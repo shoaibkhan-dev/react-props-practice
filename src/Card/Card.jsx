@@ -6,7 +6,7 @@ const Card = (props) => {
         <h1>{props.name}</h1>
         <h3>{props.price}</h3>
         <p>{props.details}</p>
-       
+        <button>{props.button}</button>
     </div>
   )
 }
