@@ -9,12 +9,12 @@ function App(){
      <Navbar />
      <Footer />
      <div className='cards'>
-     <Card title="this is card 1" descreption="card 1 descreption" />
-     <Card title="this is card 2" descreption="card 2 descreption" />
-     <Card title="this is card 3" descreption="card 3 descreption" button="add to cart"/>
-     <Card title="this is card 4" descreption="card 4 descreption"/>
+     <Card name="fried chicken" details="high quality fried chicken" price="5.99$"/>
+     <Card name="french fries" details="high quality potato fries"/>
+     <Card name="fried chicken" details="high quality fried chicken"/>
+     <Card name="fried chicken" details="high quality fried chicken" button="add to cart"/>
      </div>
     </>
   )
 }
-export default App; 
+export default App;
